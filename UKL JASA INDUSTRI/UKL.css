@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+body {
+   min-height: 100vh;
+   background: url(AIRPLANE.jpg.png);
+   display: flex;
+   justify-content: center;
+   min-height: 100vh;
+   background-size: cover;
+   background-position: center;
+}
+
+header {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   padding: 25px 100px;
+   background: #E4E0E1;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+header .logo {
+   color: #C6E7FF ; 
+   display: flex;
+   justify-content: space-between;
+   align-items: center;;
+   font-weight: 700;
+   text-decoration: none;
+   font-size: 2em;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+}
+
+nav a {
+   text-decoration: none;
+   color: #fff;
+   margin-left: 40px;
+   border-radius: 20px;
+   padding: 10px;
+}
+
+header nav a:hover,
+header nav a.active {
+   background: #c5d3e8;
+    color: #58287F;
+}
+
+.welcome {
+   color: #fff;
+   position: absolute;
+   width: 60%;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   text-align: center;
+}
+
+.welcome h1 {
+   font-size: 2,5em;
+   font-weight: 1000;
+   letter-spacing: 0,1em;
+   text-transform: uppercase;
+}
+
+.welcome h3 {
+   color: #C6E7FF;
+   font-size: 1em;
+}
+
+.welcome .explore {
+    border: none;
+    color: #58287F;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 1em;
+    font-weight: 1000;
+    margin-top: 1spx;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+.welcome .explore:hover{
+   background-color: #C6E7FF;
+   color: #1A1A1D;
+}
+
+.hello{
+   position: absolute;
+   height: auto;
+   left: 30px;
+   width: 150px;
+   padding: 5px;
+}
